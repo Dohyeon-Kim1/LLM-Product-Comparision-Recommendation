@@ -1,0 +1,8 @@
+accelerate
+bitsandbytes
+datasets
+langchain_community
+torch
+transformers
+trl
+unsloth
