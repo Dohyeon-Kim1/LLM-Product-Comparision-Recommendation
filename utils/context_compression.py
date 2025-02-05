@@ -8,14 +8,14 @@ content:
 """.strip()
 
 
-def llmCompression(model, tokenizer, context):
+def llmCompression(pipe, context):
     prompt = COMPRESSION_PROMPT.format(context=context)
-    inputs = tokenizer(
-        prompt, 
-        add_special_tokens=False, 
-        return_tensors="pt"
-    ).to(model.device)
+    output = pipe(
+        prompt,
+        max_lenth=8000,
+        truncation=True,
+        return_full_text=False
+    )[0]["generated_text"]
     
-    outputs = model.generate(**inputs, max_length=8000)
-    compressed = tokenizer.decode(outputs[0]).split("<start_of_turn>model")[-1].strip()
+    compressed = output.split("<end_of_turn>")[0].strip()
     return compressed
