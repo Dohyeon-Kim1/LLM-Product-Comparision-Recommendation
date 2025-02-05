@@ -70,6 +70,6 @@ python main.py --train=0
 
 |     이름      |                   김도현                    |              김채린              |               김천지               |               유지혜               |
 | :-----------: | :----------------------------------------------: | :----------------------------------: | :----------------------------------------: | :----------------------------------------: |
-| **Github ID** | [@Dohyeon-Kim1](https://github.com/Dohyeon-Kim1) | [@KimChaeRin]() | [@CheonjiKim](https://github.com/CheonjiKim) | [@jihyeyu33](https://github.com/jihyeyu33) |
+| **Github ID** | [@Dohyeon-Kim1](https://github.com/Dohyeon-Kim1) | [@KimChaeRin-0601](https://github.com/KimChaeRin-0601) | [@CheonjiKim](https://github.com/CheonjiKim) | [@jihyeyu33](https://github.com/jihyeyu33) |
 
 ---
