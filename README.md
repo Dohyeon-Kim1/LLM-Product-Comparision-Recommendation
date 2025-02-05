@@ -17,7 +17,9 @@
 
 ## ⚡️ Quick Start
 
-demo 관련 내용 및 코드
+```bash
+python app.py
+```
 
 ---
 
@@ -59,7 +61,7 @@ LoRA 기법을 활용하여 Instruction Tuning을 진행하여 모델이 비교�
 #### 2️. Inference
 
 ```bash
-python dataset.py --train=0
+python main.py --train=0
 ```
 
 ---
