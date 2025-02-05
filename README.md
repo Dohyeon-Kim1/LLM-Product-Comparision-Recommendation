@@ -23,14 +23,14 @@ demo 관련 내용 및 코드
 
 ## ✅ Envirionment Setting
 
-#### 1️.가상환경 생성
+#### 1️⃣ 가상환경 생성
 
 ```bash
 conda create -n pcr python=3.11
 conda activate pcr
 ```
 
-#### 2️.필요 라이브러리 설치
+#### 2️⃣ 필요 라이브러리 설치
 
 ```bash
 pip install -r requirements.txt
@@ -49,14 +49,14 @@ Langchain과 GPT API를 활용하여 자체적으로 질문-정보-답변 데이
 
 ## 🚀 Train & Inference
 
-#### 1️.Train
+#### 1️⃣ Train
 
 ```bash
 python main.py --train=1
 ```
 LoRA 기법을 활용하여 Instruction Tuning을 진행하여 모델이 비교분석 및 추천하는 답변을 더욱 잘 생성하게 만듭니다.
 
-#### 2️.Inference
+#### 2️⃣ Inference
 
 ```bash
 python dataset.py --train=0
@@ -68,6 +68,6 @@ python dataset.py --train=0
 
 |     이름      |                   김도현                    |              김채린              |               김천지               |               유지혜               |
 | :-----------: | :----------------------------------------------: | :----------------------------------: | :----------------------------------------: | :----------------------------------------: |
-| **Github ID** | [@Dohyeon-Kim1](https://github.com/Dohyeon-Kim1) | [@KimChaeRin]() | [CheonjiKim](https://github.com/CheonjiKim) | [@jihyeyu33](https://github.com/jihyeyu33) |
+| **Github ID** | [@Dohyeon-Kim1](https://github.com/Dohyeon-Kim1) | [@KimChaeRin]() | [@CheonjiKim](https://github.com/CheonjiKim) | [@jihyeyu33](https://github.com/jihyeyu33) |
 
 ---
