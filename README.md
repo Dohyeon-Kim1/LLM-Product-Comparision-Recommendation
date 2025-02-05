@@ -57,4 +57,4 @@ python dataset.py --train=0
 
 |     이름      |                   김도현                    |              김채린              |               김천지               |               유지혜               |
 | :-----------: | :----------------------------------------------: | :----------------------------------: | :----------------------------------------: | :----------------------------------------: |
-| **Github ID** | [@Dohyeon-Kim1](https://github.com/Dohyeon-Kim1) |  |  |  |
+| **Github ID** | [@Dohyeon-Kim1](https://github.com/Dohyeon-Kim1) |  |  | [@jihyeyu33](https://github.com/jihyeyu33) |
