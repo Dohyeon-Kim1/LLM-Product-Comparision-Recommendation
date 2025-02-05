@@ -39,7 +39,7 @@ def main(args):
         model, tokenizer = unsloth_model(args)
         train(model, tokenizer, args)
     else:
-        pipe = generation_pipe(args)
+        pipe = generation_pipe(args.model_id)
         response = inference(pipe, args.query)
         print(response)
 

@@ -7,7 +7,7 @@ from langchain_community.tools import DuckDuckGoSearchResults
 SEARCH = DuckDuckGoSearchResults(max_results=3, output_format="list")
 
 
-def crawling(response, max_length = 20000):
+def crawling(response, max_length=20000):
     try:
         links = [result['link'] for result in response
                  if 'Error' not in result['title']

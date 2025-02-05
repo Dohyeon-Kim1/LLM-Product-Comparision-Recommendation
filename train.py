@@ -142,7 +142,7 @@ def train(model, tokenizer, args):
         fp16=True,
         fp16_opt_level="O2",
         gradient_checkpointing=True,
-        lr_scheduler_type=args.lr_schedular,
+        lr_scheduler_type=args.lr_scheduler,
     )
 
     # 트레이너 초기화
@@ -156,7 +156,7 @@ def train(model, tokenizer, args):
 
     # 모델 학습
     trainer.train()
-    
+
     # 학습된 모델 저장
     model.save_pretrained_merged(
         f"{args.output_dir}/checkpoints/last",

@@ -20,12 +20,12 @@ def unsloth_model(args):
     return model, tokenizer
 
 
-def generation_pipe(args):
+def generation_pipe(model_id):
     pipe = pipeline(
         task="text-generateion",
-        model=args.model_id,
+        model=model_id,
         torch_dtype=torch.float16,
         device_map="cuda" if torch.cuda.is_available() else "cpu",
-        token=os.environ["HF_TOKEN"]
+        token=os.environ.get("HF_TOKEN")
     )
     return pipe
