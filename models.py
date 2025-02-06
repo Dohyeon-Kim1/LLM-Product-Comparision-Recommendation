@@ -1,10 +1,11 @@
 import os
 import torch
 from transformers import pipeline
-from unsloth import FastLanguageModel
 
 
 def unsloth_model(args):
+    from unsloth import FastLanguageModel
+
     model, tokenizer = FastLanguageModel(
         model_name="google/gemma-2-9b-it",
         load_in_4bit=True,
@@ -26,6 +27,7 @@ def generation_pipe(model_id):
         model=model_id,
         torch_dtype=torch.float16,
         device_map="cuda" if torch.cuda.is_available() else "cpu",
-        token=os.environ.get("HF_TOKEN")
-    )
+        token=os.environ.get("HF_TOKEN"),
+        model_kwargs={"max_length": 2048}
+        )
     return pipe

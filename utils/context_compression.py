@@ -12,7 +12,7 @@ def llmCompression(pipe, context):
     prompt = COMPRESSION_PROMPT.format(context=context)
     output = pipe(
         prompt,
-        max_lenth=8000,
+        max_length=8000,
         truncation=True,
         return_full_text=False
     )[0]["generated_text"]
