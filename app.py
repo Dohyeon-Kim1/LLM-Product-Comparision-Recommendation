@@ -4,7 +4,7 @@ from inference import inference
 
 def main():
 
-    pipe = generation_pipe() #모델 경로나 모델 id 필요!
+    pipe = generation_pipe("unsloth/gemma-2-2b-it") #모델 경로나 모델 id 필요!
 
     def answer(query):
         return inference(pipe,query)
