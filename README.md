@@ -20,12 +20,13 @@
 ```bash
 python app.py
 ```
+#### 사용 예시 <br>
 서버에 연결되면 아래와 같은 화면이 제공됩니다. <br>
 <img src="images\demo_start.png"> <br>
 
 User Question 입력창에 비교 및 분석을 원하시는 제품명과 함께 질문한 후,
-하단의 Let me Know 버튼을 눌러주세요. <br><br>
-#### Example: <br>
+하단의 Let me Know 버튼을 눌러주세요. <br>
+#### User Question Example: <br>
 ```bash
 삼성 갤럭시 버즈3 pro와 비슷한 가격대의 제품을 비교 분석하여 추천해줘
 ```
