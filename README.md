@@ -20,6 +20,16 @@
 ```bash
 python app.py
 ```
+#### 실행 화면 <br>
+<img src="images\demo_start.png"> <br>
+
+User Question 입력창에 비교 및 분석을 원하시는 제품명과 함께 질문한 후,
+하단의 Let me Know 버튼을 눌러주세요. <br>
+#### Example: <br>
+```bash
+삼성 갤럭시 버즈3 pro와 비슷한 가격대의 제품을 비교 분석하여 추천해줘
+```
+
 
 ---
 
